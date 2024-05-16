@@ -1,0 +1,1398 @@
+  
+
+  
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, shrink-to-fit=no">
+		<meta name="google-site-verification" content="nsSDl--3qTKY5YOZDvnx0EU-EjtSX1tNOQ7mISR5Z98" />
+		<meta name="robots" content="all" />
+		<title>The DataWeave Blog</title> 
+		<meta name="title" content="DataWeave - The DataWeave Blog">
+		<meta name="Keywords" content="dataweave, blog, retail, artificial intelligence">
+		<meta name="author" content="dataweave.com">
+		<meta name="Description" content="The DataWeave Blog covers the latest stories in retail, data analytics, artificial intelligence, and more, often complemented with unique insights unearthed from Web data">
+		<link rel="canonical" href="https://dataweave.com/blog"  >
+		<link rel="alternate" href="https://dataweave.com/blog" hreflang="en-US">
+		<link rel="alternate" href="https://dataweave.com/blog" hreflang="en-GB">
+		<link rel="alternate" href="https://dataweave.com/blog" hreflang="en-IN">
+		<link rel="alternate" href="https://dataweave.com/blog" hreflang="x-default">
+				
+		<!-- Starts: Referrer, Content Policy and Permissions Policy -->
+		<meta name="referrer" content="origin">
+		<!-- Ends: Referrer, Content Policy and Permissions Policy -->
+		<meta property="og:title" content="The DataWeave Blog" />
+		<meta property="og:url" content="https://dataweave.com/blog/blog" />
+		<meta property="og:type" content="website" />
+		<meta property="og:description" content="The DataWeave Blog covers the latest stories in retail, data analytics, artificial intelligence, and more, often complemented with unique insights unearthed from Web data" />
+		<meta property="og:image" content="https://dataweave.com/assets/images/blog-page-banner-og-2022.jpg" />
+		<meta property="og:image:url" content="https://dataweave.com/assets/images/blog-page-banner-og-2022.jpg" />
+		<meta property="og:image:secure_url" content="https://dataweave.com/assets/images/blog-page-banner-og-2022.jpg" />
+		
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta name="twitter:site" content="@dataweavein" />
+		<meta name="twitter:title" content="The DataWeave Blog" />
+		<meta name="twitter:description" content="The DataWeave Blog covers the latest stories in retail, data analytics, artificial intelligence, and more, often complemented with unique insights unearthed from Web data" />
+		<meta property="twitter:domain" content="https://dataweave.com/" />
+		<meta property="twitter:url" content="https://dataweave.com/blog/blog" />
+		<meta name="twitter:image" content="https://dataweave.com/assets/images/blog-page-banner-og-2022.jpg" />
+		<meta name="twitter:image:alt" content="The DataWeave Blog" />	
+		
+		<!-- CSS -->
+		<link rel="icon" href="https://dataweave.com/assets/images/DW_favicon_dark_blue.png" type="image/png">
+		
+		<link rel="apple-touch-icon" href="https://dataweave.com/assets/images/dw-touch-icon-iphone-120.png">
+		<link rel="apple-touch-icon" sizes="152x152" href="https://dataweave.com/assets/images/dw-touch-icon-ipad-152.png">
+		<link rel="apple-touch-icon" sizes="180x180" href="https://dataweave.com/assets/images/dw-touch-icon-iphone-retina-180.png">
+		<link rel="apple-touch-icon" sizes="167x167" href="https://dataweave.com/assets/images/dw-touch-icon-ipad-retina-167.png">
+		<!-- <link rel="apple-touch-startup-image" href="dw-launch-1440.png"> -->
+		
+		<link rel="stylesheet" type="text/css" href="https://dataweave.com/assets/css/newstyle.css?v.." />
+		<link rel="stylesheet" href="https://dataweave.com/assets/css/intlTelInput.min.css">
+		<!-- Call the god -->
+		<script src="https://dataweave.com/assets/js/jquery.min.js" nonce="7121774575371401"></script>
+		
+  	<!-- Google Tag Manager -->
+		<!-- Google tag (gtag.js) event - delayed navigation helper -->
+		<script nonce="7121774575371401">
+		  function gtagSendEvent(url) {
+		    var callback = function () {
+		      if (typeof url === 'string') {
+		        window.location = url;
+		      }
+		    };
+		    gtag('event', 'conversion_event_submit_lead_form', {
+		      'event_callback': callback,
+		      'event_timeout': 2000,
+		    });
+		    return false;
+		  }
+		</script>
+  	<script nonce="7121774575371401">
+      dataLayer = [];
+    </script>
+				<!-- Google tag (gtag.js) -->
+		<script nonce="7121774575371401"async src="https://www.googletagmanager.com/gtag/js?id=GTM-N6LWBK"></script>
+		<script nonce="7121774575371401">
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+			gtag('config', 'GTM-N6LWBK');
+		</script>
+		
+				<!-- Google tag (gtag.js) -->
+		<script nonce="7121774575371401"async src="https://www.googletagmanager.com/gtag/js?id=GTM-5R7RF2F"></script>
+		<script nonce="7121774575371401">
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+			gtag('config', 'GTM-5R7RF2F');
+		</script>
+		
+				<!-- End Google Tag Manager -->
+  	
+    		<!-- Charts are not loaded-->
+				<script src="https://dataweave.com/assets/js/forms-utils.min.js?v.."  nonce="7121774575371401"></script>
+	</head>
+	<body id="thispage">
+  <!-- // Detect JS support. Used for cookies -->
+	<script  nonce="7121774575371401">
+    document.body.className = document.body.className + " js_enabled";
+	</script>
+	<noscript>
+				<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N6LWBK" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+				<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5R7RF2F" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+				<div class="noscript">
+  		<p>You are running a browser with JavaScript Disabled<br><strong>Please enable JavaScript on your browser to continue. Thanks.</strong></p>
+		</div>
+	</noscript>
+  <!-- // End JS Supprt Detection  -->
+  
+	
+
+		<div class="container" id="">
+<div class="floating-notifications noprint">
+	<!-- Popups appear here -->
+		<div class="cookieMonster" id="cookie-message" >
+		<!-- <i class="closeorange cookie"></i> -->
+		<p>
+			<span id="cookieerror"></span>
+			You agree to our cookie policy by using this website. 
+			<a href="https://dataweave.com/in/privacy-policy" title="View our Cookie Policy">More Info</a>
+			<a id="closeCookieMonster" >Got it</a>
+		</p>
+	</div>
+</div><header>
+
+<!--
+<div id="topmenu_pseudo">
+  <div class="thisHover"></div>
+</div> 
+--> 
+<div class="nonloggein active" id="topmenu" >
+  <nav>
+	<ul>
+  	<li>
+		  <a href="https://dataweave.com/"><img class="icon" src="https://dataweave.com/assets/images/spacer.gif" alt="home" title="home"></a>
+    </li>
+				<li>
+		  			<a><img class="icon" src="https://dataweave.com/assets/images/altdta-mnu-ico-3.png" alt="altdta-mnu-ico-3.png title="altdta-mnu-ico-3.png /><span>Products</span></a>
+									<div class="sublinks">
+  			<ul>
+         
+          </li>
+            
+            
+                      
+          <li>
+                        <p><span>For Brands</span></p>
+                          <ul>
+                              <li class="">
+                  <a class="underline" href="https://dataweave.com/in/digital-shelf-analytics"><span>Digital Shelf Analytics</span></a>
+                </li>
+                              <li class="">
+                  <a class="" href="https://dataweave.com/in/share-of-search"><span>Share of Search</span></a>
+                </li>
+                              <li class="">
+                  <a class="" href="https://dataweave.com/in/content-audit"><span>Content Audit</span></a>
+                </li>
+                              <li class="">
+                  <a class="" href="https://dataweave.com/in/assortment-availability"><span>Assortment and Availability</span></a>
+                </li>
+                              <li class="">
+                  <a class="" href="https://dataweave.com/in/pricing-promotions"><span>Pricing and Promotions</span></a>
+                </li>
+                              <li class="">
+                  <a class="" href="https://dataweave.com/in/ratings-reviews"><span>Ratings and Reviews</span></a>
+                </li>
+               
+              </ul>
+             
+          </li>
+            
+            
+             
+          </li>
+            
+            
+             
+          </li>
+            
+            
+             
+          </li>
+            
+            
+             
+          </li>
+            
+            
+             
+          </li>
+            
+            
+             
+          </li>
+            
+            
+                       
+          </li>
+            
+            
+             
+          </li>
+            
+            
+                      
+          <li>
+                        <p><span> </span></p>
+                          <ul>
+                              <li class="">
+                  <a class="underline" href="https://dataweave.com/in/brand-protection"><span>Brand Protection</span></a>
+                </li>
+                              <li class="">
+                  <a class="" href="https://dataweave.com/in/map-violations-merchant-analytics"><span>MAP Violations</span></a>
+                </li>
+                              <li class="">
+                  <a class="" href="https://dataweave.com/in/counterfeit-detection"><span>Counterfeit Detection</span></a>
+                </li>
+               
+              </ul>
+             
+          </li>
+            
+            
+             
+          </li>
+            
+            
+             
+          </li>
+            
+            
+             
+          </li>
+            
+            
+             
+          </li>
+            
+            
+             
+          </li>
+            
+            
+                       
+          </li>
+            
+            
+             
+          </li>
+            
+            
+             
+          </li>
+            
+            
+             
+          </li>
+            
+            
+             
+          </li>
+            
+            
+             
+          </li>
+            
+            
+                      
+          <li>
+                        <p><span>For Retailers</span></p>
+                          <ul>
+                              <li class="">
+                  <a class="underline" href="https://dataweave.com/in/commerce-intelligence"><span>Commerce Intelligence</span></a>
+                </li>
+                              <li class="">
+                  <a class="" href="https://dataweave.com/in/pricing-intelligence"><span>Pricing Intelligence</span></a>
+                </li>
+                              <li class="">
+                  <a class="" href="https://dataweave.com/in/assortment-analytics"><span>Assortment Analytics</span></a>
+                </li>
+                              <li class="">
+                  <a class="" href="https://dataweave.com/in/monitor-real-time-competitor-fuel-prices-effortlessly"><span>Fuel Pricing Intelligence</span></a>
+                </li>
+               
+              </ul>
+             
+          </li>
+            
+            
+             
+          </li>
+            
+            
+                              
+        </ul>
+			</div>
+					</li>
+			<li>
+		  			<a><img class="icon" src="https://dataweave.com/assets/images/rtlintl-mnu-ico-3.png" alt="rtlintl-mnu-ico-3.png title="rtlintl-mnu-ico-3.png /><span>Resources</span></a>
+									<div class="mainlinks">
+			<ul>
+  		            <li>                <a class="" href="https://dataweave.com/blog" >Blog</a>
+               
+               
+          </li>
+                  <li>                <a class="" href="https://dataweave.com/in/case-studies" >Case Studies</a>
+               
+               
+          </li>
+                  <li>                <a class="" href="https://dataweave.com/in/reports" >Reports & Whitepapers</a>
+               
+               
+          </li>
+                  <li>                <a class="" href="https://dataweave.com/in/webinars" >Webinars & Podcasts</a>
+               
+               
+          </li>
+         
+			</ul>
+			</div>
+					</li>
+			<li>
+		  			<a><img class="icon" src="https://dataweave.com/assets/images/rtlintl-mnu-ico-3.png" alt="rtlintl-mnu-ico-3.png title="rtlintl-mnu-ico-3.png /><span>Company</span></a>
+									<div class="mainlinks">
+			<ul>
+  		            <li>                <a class="" href="https://dataweave.com/in/about-us" >About Us</a>
+               
+               
+          </li>
+                  <li>                <a class="" href="https://dataweave.com/in/about-us#leadershipteam " >Team</a>
+               
+               
+          </li>
+                  <li>                <a class="" href="https://dataweave.com/in/technology" >Technology</a>
+               
+               
+          </li>
+                  <li>                <a class="" href="https://dataweave.com/in/dataweave-partnership" >Partners</a>
+               
+               
+          </li>
+                  <li>                <a class="" href="https://dataweave.com/in/press-room" >Press Room</a>
+               
+               
+          </li>
+                  <li>                <a class="" href="https://dataweave.com/in/careers" >Careers</a>
+               
+               
+          </li>
+         
+			</ul>
+			</div>
+					</li>
+		</ul>
+  </nav>
+</div>
+<div class="nonloggein pdfcrowd-remove" id="blogmenu" >
+    <nav>
+    <div>
+      <div class="listheader">
+        <h4>Search</h4>
+      </div>
+      <div class="listlinks">
+      	<form id="" action=" https://dataweave.com/blog/search/" method="post">
+        	<input type="text" value="" placeholder="|" class="search" name="key"/>
+        	<input type="submit" name="submit_search" value="Search" class="hidden"/>
+      	</form>
+      </div>
+    </div>
+    <div class="clear borderTop">
+    <div class="listheader">
+      <h4>Browse Categories</h4>
+    </div>
+    <div class="listlinks">
+    	<ul>
+      	<li><a href="https://dataweave.com/blog/all">Everything</a></li>
+    	      	    <li><a href="https://dataweave.com/blog/category/ai">AI</a></li>
+            	    <li><a href="https://dataweave.com/blog/category/amazon">Amazon</a></li>
+            	    <li><a href="https://dataweave.com/blog/category/amazon-prime-day">Amazon Prime Day</a></li>
+            	    <li><a href="https://dataweave.com/blog/category/api">API</a></li>
+            	    <li><a href="https://dataweave.com/blog/category/artificial-intelligence">Artificial Intelligence</a></li>
+            	    <li><a href="https://dataweave.com/blog/category/beauty">Beauty</a></li>
+            	    <li><a href="https://dataweave.com/blog/category/black-friday">Black Friday</a></li>
+            	    <li><a href="https://dataweave.com/blog/category/brand-equity">Brand Equity</a></li>
+            	    <li><a href="https://dataweave.com/blog/category/brand-perception">Brand Perception</a></li>
+            	    <li><a href="https://dataweave.com/blog/category/brand-protection">Brand Protection</a></li>
+            	    <li><a href="https://dataweave.com/blog/category/brand-scouting">Brand Scouting</a></li>
+            	    <li><a href="https://dataweave.com/blog/category/brands">Brands</a></li>
+            	    <li><a href="https://dataweave.com/blog/category/brands-strategy">Brands Strategy</a></li>
+            	    <li><a href="https://dataweave.com/blog/category/canada">Canada</a></li>
+            	    <li><a href="https://dataweave.com/blog/category/company">Company</a></li>
+            	    <li><a href="https://dataweave.com/blog/category/content-audit">Content Audit</a></li>
+            	    <li><a href="https://dataweave.com/blog/category/counterfeit-detection">Counterfeit Detection</a></li>
+            	    <li><a href="https://dataweave.com/blog/category/counterfeits">Counterfeits</a></li>
+            	    <li><a href="https://dataweave.com/blog/category/customer-sentiments">Customer Sentiments</a></li>
+            	    <li><a href="https://dataweave.com/blog/category/cyber-monday">Cyber Monday</a></li>
+            	    <li><a href="https://dataweave.com/blog/category/d2c">D2C</a></li>
+            	    <li><a href="https://dataweave.com/blog/category/dashboard">Dashboard</a></li>
+            	    <li><a href="https://dataweave.com/blog/category/data-engineering">Data Engineering</a></li>
+            	    <li><a href="https://dataweave.com/blog/category/delivery-intermediaries">Delivery Intermediaries</a></li>
+            	    <li><a href="https://dataweave.com/blog/category/digital-shelf">Digital Shelf</a></li>
+            	    <li><a href="https://dataweave.com/blog/category/discounts">Discounts</a></li>
+            	    <li><a href="https://dataweave.com/blog/category/discoverability">Discoverability</a></li>
+            	    <li><a href="https://dataweave.com/blog/category/e-commerce">E Commerce</a></li>
+            	    <li><a href="https://dataweave.com/blog/category/electronics">Electronics</a></li>
+            	    <li><a href="https://dataweave.com/blog/category/europe">Europe</a></li>
+            	    <li><a href="https://dataweave.com/blog/category/fashion">Fashion</a></li>
+            	    <li><a href="https://dataweave.com/blog/category/food-delivery">Food Delivery</a></li>
+            	    <li><a href="https://dataweave.com/blog/category/fuel-pricing">Fuel Pricing</a></li>
+            	    <li><a href="https://dataweave.com/blog/category/germany">Germany</a></li>
+            	    <li><a href="https://dataweave.com/blog/category/global">Global</a></li>
+            	    <li><a href="https://dataweave.com/blog/category/grocery-delivery">Grocery Delivery</a></li>
+            	    <li><a href="https://dataweave.com/blog/category/grocery-shoppers">Grocery Shoppers</a></li>
+            	    <li><a href="https://dataweave.com/blog/category/historical-pricing-analytics">Historical pricing analytics</a></li>
+            	    <li><a href="https://dataweave.com/blog/category/hyper-local">hyper-local</a></li>
+            	    <li><a href="https://dataweave.com/blog/category/image-recognition">Image recognition</a></li>
+            	    <li><a href="https://dataweave.com/blog/category/india">India</a></li>
+            	    <li><a href="https://dataweave.com/blog/category/inflation">Inflation</a></li>
+            	    <li><a href="https://dataweave.com/blog/category/intelligent-pricing">Intelligent Pricing</a></li>
+            	    <li><a href="https://dataweave.com/blog/category/kpi">KPI</a></li>
+            	    <li><a href="https://dataweave.com/blog/category/map-violations">MAP Violations</a></li>
+            	    <li><a href="https://dataweave.com/blog/category/market-share">Market Share</a></li>
+            	    <li><a href="https://dataweave.com/blog/category/minimum-advertised-pricing">Minimum Advertised Pricing</a></li>
+            	    <li><a href="https://dataweave.com/blog/category/north-america">North America</a></li>
+            	    <li><a href="https://dataweave.com/blog/category/on-demand-grocery-delivery">on-demand grocery delivery</a></li>
+            	    <li><a href="https://dataweave.com/blog/category/online-fashion">Online Fashion</a></li>
+            	    <li><a href="https://dataweave.com/blog/category/online-grocery">Online Grocery</a></li>
+            	    <li><a href="https://dataweave.com/blog/category/online-marketplaces">Online Marketplaces</a></li>
+            	    <li><a href="https://dataweave.com/blog/category/online-sales">Online sales</a></li>
+            	    <li><a href="https://dataweave.com/blog/category/out-of-stock">out-of-stock</a></li>
+            	    <li><a href="https://dataweave.com/blog/category/price-perception">price perception</a></li>
+            	    <li><a href="https://dataweave.com/blog/category/pricing">Pricing</a></li>
+            	    <li><a href="https://dataweave.com/blog/category/pricing-analytics">pricing analytics</a></li>
+            	    <li><a href="https://dataweave.com/blog/category/pricing-insights">Pricing insights</a></li>
+            	    <li><a href="https://dataweave.com/blog/category/pricing-strategies">Pricing Strategies</a></li>
+            	    <li><a href="https://dataweave.com/blog/category/private-label">Private Label</a></li>
+            	    <li><a href="https://dataweave.com/blog/category/product-assortment">Product Assortment</a></li>
+            	    <li><a href="https://dataweave.com/blog/category/product-availability">Product Availability</a></li>
+            	    <li><a href="https://dataweave.com/blog/category/product-content">Product Content</a></li>
+            	    <li><a href="https://dataweave.com/blog/category/product-discoverability">Product Discoverability</a></li>
+            	    <li><a href="https://dataweave.com/blog/category/product-visuals">Product Visuals</a></li>
+            	    <li><a href="https://dataweave.com/blog/category/promotion">Promotion</a></li>
+            	    <li><a href="https://dataweave.com/blog/category/promotional-strategies">promotional strategies</a></li>
+            	    <li><a href="https://dataweave.com/blog/category/qcommerce">QCommerce</a></li>
+            	    <li><a href="https://dataweave.com/blog/category/qsr">QSR</a></li>
+            	    <li><a href="https://dataweave.com/blog/category/ratings">Ratings</a></li>
+            	    <li><a href="https://dataweave.com/blog/category/regions">Regions</a></li>
+            	    <li><a href="https://dataweave.com/blog/category/retail">Retail</a></li>
+            	    <li><a href="https://dataweave.com/blog/category/reviews">Reviews</a></li>
+            	    <li><a href="https://dataweave.com/blog/category/sentiment-analysis">Sentiment Analysis</a></li>
+            	    <li><a href="https://dataweave.com/blog/category/share-of-search">Share of Search</a></li>
+            	    <li><a href="https://dataweave.com/blog/category/share-of-search-keyword">Share of Search Keyword</a></li>
+            	    <li><a href="https://dataweave.com/blog/category/social-commerce">Social Commerce</a></li>
+            	    <li><a href="https://dataweave.com/blog/category/south-africa">South Africa</a></li>
+            	    <li><a href="https://dataweave.com/blog/category/south-east-asia">South East Asia</a></li>
+            	    <li><a href="https://dataweave.com/blog/category/sponsored-brands-ads">sponsored brands ads</a></li>
+            	    <li><a href="https://dataweave.com/blog/category/sponsored-display-ads">sponsored display ads</a></li>
+            	    <li><a href="https://dataweave.com/blog/category/sponsored-product-ads">sponsored product ads</a></li>
+            	    <li><a href="https://dataweave.com/blog/category/stock-replenishment">stock replenishment</a></li>
+            	    <li><a href="https://dataweave.com/blog/category/stockouts">Stockouts</a></li>
+            	    <li><a href="https://dataweave.com/blog/category/strategy">Strategy</a></li>
+            	    <li><a href="https://dataweave.com/blog/category/supply-chain">Supply Chain</a></li>
+            	    <li><a href="https://dataweave.com/blog/category/united-kindom">United Kindom</a></li>
+            	    <li><a href="https://dataweave.com/blog/category/united-kingdom">United Kingdom</a></li>
+            	    <li><a href="https://dataweave.com/blog/category/us">US</a></li>
+            	</ul>
+    </div>
+  </div>
+    <div class="clear borderTop">
+      <div class="listheader ">
+        <h4>Browse By Year</h4>
+      </div>
+    
+      <div class="listlinks">
+      	<ul>
+      	        	    <li><a href="https://dataweave.com/blog/year/2024">2024</a></li>
+                	    <li><a href="https://dataweave.com/blog/year/2023">2023</a></li>
+                	    <li><a href="https://dataweave.com/blog/year/2022">2022</a></li>
+                	    <li><a href="https://dataweave.com/blog/year/2021">2021</a></li>
+                	    <li><a href="https://dataweave.com/blog/year/2020">2020</a></li>
+                	    <li><a href="https://dataweave.com/blog/year/2019">2019</a></li>
+                	    <li><a href="https://dataweave.com/blog/year/2018">2018</a></li>
+                	    <li><a href="https://dataweave.com/blog/year/2017">2017</a></li>
+                	    <li><a href="https://dataweave.com/blog/year/2016">2016</a></li>
+                	    <li><a href="https://dataweave.com/blog/year/2015">2015</a></li>
+                	    <li><a href="https://dataweave.com/blog/year/2014">2014</a></li>
+                	</ul>
+      </div>
+    </div>
+  </nav>
+</div>
+<div class="cookieMonster" id="cookie-message" >
+  <p>
+    <span id="cookieerror"></span>
+    DataWeave.com uses cookies to ensure we give you the best experience on our website.
+    <a href="https://dataweave.com/in/privacy-policy" title="View our Cookie Policy">More Info</a>. <a id="closeCookieMonster" href="#">Ok</a>
+  </p>
+</div>
+
+
+<div class="topcta" id="loginbutton">
+  <a class="button hero login">Login</a>
+</div>
+
+<div class="topcta pdfcrowd-remove"  id="topcta">
+	<a class="button hero showdemoform">Request a demo</a>
+</div>
+
+ <div class="burger passive nopc notablet" id="showtopmenu">
+    <i class="icon burgericon"></i>
+  </div>
+  
+  <div class="topic passive pdfcrowd-remove" id="showblogmenu">
+    <i class="icon topicicon"></i>
+  </div>
+
+</header>
+<div class="" id="pagecontent" style="width: 100%">
+<section>
+		
+		
+		<div class="fillslidessmall" id="main_banner_small">
+		<div class="slide">
+		<div class="overlaycolor">
+			<img srcset="https://dataweave.com/assets/images/blog-page-banner-m-2022.jpg 740w, https://dataweave.com/assets/images/blog-page-banner-d-2022.jpg"
+				sizes="(max-width: 720px) 720px, 1920px"
+				src="https://dataweave.com/assets/images/blog-page-banner-d-2022.jpg"
+				alt="Weaving Stories on Retail and Technology"
+				title="Weaving Stories on Retail and Technology" />
+		</div>
+		<div class="wrapper">
+			<div class="bannercontent dark">
+  							<header>
+					<h4>The DataWeave Blog</h4>
+				</header>
+									
+									<h1>Weaving Stories on Retail and Technology</h1>
+								<p></p>
+				  			  <p class=""><a class="button showdemoform" href="#">Request a demo</a></p>
+  						</div>
+		</div>
+	</div>
+	</div>
+<div class="feed_blogs blog"  id="blog_1">
+  <div class="wrapper">
+          <h4 class="header">Recent Posts&nbsp;<a href="/blog/all" class="button viewall"  >View All</a></h4>
+      
+            
+              
+      <div>
+                  
+      <div class="box post">
+        <a href="/blog/how-monitoring-and-analyzing-end-user-prices-can-help-retailers-and-brands-gain-a-competitive-edge" class=""  >
+        <div>
+                    <div class="contentimage"  >
+            <img class="lazythumb" data-image-src="https://stage-cdnblog.dataweave.com/wp-content/uploads/2024/05/eup-768x320.jpg" src="" alt="How Monitoring and Analyzing  End-User Prices can Help Retailers and Brands Gain a Competitive Edge" title="How Monitoring and Analyzing  End-User Prices can Help Retailers and Brands Gain a Competitive Edge" />
+          </div>
+                    <div class="bannercontent">
+            <h4>How Monitoring and Analyzing  End-User Prices can Help Retailers and Brands Gain a Competitive Edge</h4>
+            <div class="excerpt">
+              <p>Accurate pricing intelligence is crucial for retailers and brands in the eCommerce arena. Discover why tracking the &#8220;end-user price&#8221; &#8211; the true cost to consumers  ...</p>
+            </div>
+            <p class="credits">Vaibhav Khaparde | 15th May, 2024</p>
+          </div>
+        </div>
+        </a>
+      </div> 
+      
+                  
+      <div class="box post">
+        <a href="/blog/augmenting-ai-powered-product-matching-with-human-expertise-to-achieve-unparalleled-accuracy" class=""  >
+        <div>
+                    <div class="contentimage"  >
+            <img class="lazythumb" data-image-src="https://stage-cdnblog.dataweave.com/wp-content/uploads/2024/05/ai-human-balance-1-768x320.jpg" src="" alt="Augmenting AI-powered Product Matching with Human Expertise to Achieve Unparalleled Accuracy" title="Augmenting AI-powered Product Matching with Human Expertise to Achieve Unparalleled Accuracy" />
+          </div>
+                    <div class="bannercontent">
+            <h4>Augmenting AI-powered Product Matching with Human Expertise to Achieve Unparalleled Accuracy</h4>
+            <div class="excerpt">
+              <p>Find out how the power of AI and human validation can drive precise product matching. Discover how DataWeave enhances product matching to enhance your pricing strategies.
+ ...</p>
+            </div>
+            <p class="credits">Namrata | 2nd May, 2024</p>
+          </div>
+        </div>
+        </a>
+      </div> 
+      
+                  
+      <div class="box post">
+        <a href="/blog/how-gas-stations-and-convenience-stores-in-the-u-s-can-adapt-to-evolving-fuel-pricing-trends-in-2024" class=""  >
+        <div>
+                    <div class="contentimage"  >
+            <img class="lazythumb" data-image-src="https://stage-cdnblog.dataweave.com/wp-content/uploads/2024/04/fuel-blog-bg1-768x320.jpg" src="" alt="How Gas Stations and Convenience Stores in the U.S. Can Adapt To Evolving Fuel Pricing Trends in 2024" title="How Gas Stations and Convenience Stores in the U.S. Can Adapt To Evolving Fuel Pricing Trends in 2024" />
+          </div>
+                    <div class="bannercontent">
+            <h4>How Gas Stations and Convenience Stores in the U.S. Can Adapt To Evolving Fuel Pricing Trends in 2024</h4>
+            <div class="excerpt">
+              <p>Insights on how US gas stations and convenience stores can adapt to evolving fuel pricing trends in 2024 amidst shifts in renewable energy, consumer preferences, and global market  ...</p>
+            </div>
+            <p class="credits">Rohit Pentapati | 19th Apr, 2024</p>
+          </div>
+        </div>
+        </a>
+      </div> 
+      
+                  
+      <div class="box post">
+        <a href="/blog/why-localized-store-specific-pricing-and-availability-insights-is-critical-for-consumer-brands" class=""  >
+        <div>
+                    <div class="contentimage"  >
+            <img class="lazythumb" data-image-src="https://stage-cdnblog.dataweave.com/wp-content/uploads/2024/03/localized-store-768x320.jpg" src="" alt="Why Localized, Store-Specific Pricing and Availability Insights is Critical for Consumer Brands" title="Why Localized, Store-Specific Pricing and Availability Insights is Critical for Consumer Brands" />
+          </div>
+                    <div class="bannercontent">
+            <h4>Why Localized, Store-Specific Pricing and Availability Insights is Critical for Consumer Brands</h4>
+            <div class="excerpt">
+              <p>Unlock the power of localized, store specific pricing insights with DataWeave&#8217;s Digital Shelf Analytics. Optimize strategies, stay competitive, and enhance customer satisfact ...</p>
+            </div>
+            <p class="credits">Vaibhav Khaparde | 3rd Apr, 2024</p>
+          </div>
+        </div>
+        </a>
+      </div> 
+      
+                  
+      <div class="box post">
+        <a href="/blog/easter-candy-pricing-trends-2024-winning-strategies-for-retailers-and-brands-amid-cocoa-price-surge" class=""  >
+        <div>
+                    <div class="contentimage"  >
+            <img class="lazythumb" data-image-src="https://stage-cdnblog.dataweave.com/wp-content/uploads/2024/04/easter-candy-768x320.jpg" src="" alt="Easter Candy Pricing Trends 2024: Winning Strategies for Retailers and Brands Amid Cocoa Price Surge" title="Easter Candy Pricing Trends 2024: Winning Strategies for Retailers and Brands Amid Cocoa Price Surge" />
+          </div>
+                    <div class="bannercontent">
+            <h4>Easter Candy Pricing Trends 2024: Winning Strategies for Retailers and Brands Amid Cocoa Price Surge</h4>
+            <div class="excerpt">
+              <p>The cocoa crisis is driving up chocolate and candy prices, impacting Easter sales. Learn how major retailers like Kroger, Target, Giant Eagle, and Amazon are combating inflation wi ...</p>
+            </div>
+            <p class="credits">Shailendra Nagarajan | 1st Apr, 2024</p>
+          </div>
+        </div>
+        </a>
+      </div> 
+      
+                  
+      <div class="box post">
+        <a href="/blog/how-ai-powered-visual-highlighting-helps-brands-achieve-product-consistency-across-ecommerce" class=""  >
+        <div>
+                    <div class="contentimage"  >
+            <img class="lazythumb" data-image-src="https://stage-cdnblog.dataweave.com/wp-content/uploads/2024/03/ai-at-dataweave-bridging-the-gap-768x420.jpg" src="" alt="How AI-Powered Visual Highlighting Helps Brands Achieve Product Consistency Across eCommerce" title="How AI-Powered Visual Highlighting Helps Brands Achieve Product Consistency Across eCommerce" />
+          </div>
+                    <div class="bannercontent">
+            <h4>How AI-Powered Visual Highlighting Helps Brands Achieve Product Consistency Across eCommerce</h4>
+            <div class="excerpt">
+              <p>Learn how AI-powered visual highlighting helps brands maintain consistency of product images across online marketplaces with precision and speed.
+ ...</p>
+            </div>
+            <p class="credits">Ashish Rao | 4th Mar, 2024</p>
+          </div>
+        </div>
+        </a>
+      </div> 
+      
+                  
+      <div class="box post">
+        <a href="/blog/how-dataweave-enhances-transparency-in-competitive-pricing-intelligence-for-retailers" class=""  >
+        <div>
+                    <div class="contentimage"  >
+            <img class="lazythumb" data-image-src="https://stage-cdnblog.dataweave.com/wp-content/uploads/2024/01/data-stats-bg-2-768x320.jpg" src="" alt="How DataWeave Enhances Transparency in Competitive Pricing Intelligence for Retailers" title="How DataWeave Enhances Transparency in Competitive Pricing Intelligence for Retailers" />
+          </div>
+                    <div class="bannercontent">
+            <h4>How DataWeave Enhances Transparency in Competitive Pricing Intelligence for Retailers</h4>
+            <div class="excerpt">
+              <p>Unlock transparent pricing strategies with DataWeave! Elevate accuracy, freshness, and coverage in competitive intelligence. Manage matches independently for retail success. Learn  ...</p>
+            </div>
+            <p class="credits">Shibashis Ganguly | 22nd Jan, 2024</p>
+          </div>
+        </div>
+        </a>
+      </div> 
+      
+                  
+      <div class="box post">
+        <a href="/blog/capturing-and-analyzing-retail-mobile-app-data-for-digital-shelf-analytics-are-brands-missing-out" class=""  >
+        <div>
+                    <div class="contentimage"  >
+            <img class="lazythumb" data-image-src="https://stage-cdnblog.dataweave.com/wp-content/uploads/2024/01/bg-retail-mobile-app-768x320.jpg" src="" alt="Capturing and Analyzing Retail Mobile App Data for Digital Shelf Analytics: Are Brands Missing Out?" title="Capturing and Analyzing Retail Mobile App Data for Digital Shelf Analytics: Are Brands Missing Out?" />
+          </div>
+                    <div class="bannercontent">
+            <h4>Capturing and Analyzing Retail Mobile App Data for Digital Shelf Analytics: Are Brands Missing Out?</h4>
+            <div class="excerpt">
+              <p>Unlock eCommerce success! Discover why brands must prioritize mobile app data in Digital Shelf Analytics. Dive into insights for a winning online market share. 
+ ...</p>
+            </div>
+            <p class="credits">Vaibhav Khaparde | 19th Jan, 2024</p>
+          </div>
+        </div>
+        </a>
+      </div> 
+      
+                  
+      <div class="box post">
+        <a href="/blog/ai-powered-product-matching-the-key-to-competitive-pricing-intelligence-in-ecommerce" class=""  >
+        <div>
+                    <div class="contentimage"  >
+            <img class="lazythumb" data-image-src="https://stage-cdnblog.dataweave.com/wp-content/uploads/2024/01/data-science-aug-2019-010-768x432.jpg" src="" alt="AI-powered Product Matching: The Key to Competitive Pricing Intelligence in eCommerce" title="AI-powered Product Matching: The Key to Competitive Pricing Intelligence in eCommerce" />
+          </div>
+                    <div class="bannercontent">
+            <h4>AI-powered Product Matching: The Key to Competitive Pricing Intelligence in eCommerce</h4>
+            <div class="excerpt">
+              <p>With thousands of products and hundreds of online retailers to choose from, the average modern-day shopper usually compares prices across several e-commerce sites effortlessly befo ...</p>
+            </div>
+            <p class="credits">Sanket Patil | 29th Dec, 2023</p>
+          </div>
+        </div>
+        </a>
+      </div> 
+      
+                  
+      <div class="box post">
+        <a href="/blog/the-indian-e-commerce-showdown-unveiling-the-price-war-between-flipkarts-big-billion-days-and-amazons-great-indian-festival" class=""  >
+        <div>
+                    <div class="contentimage"  >
+            <img class="lazythumb" data-image-src="https://stage-cdnblog.dataweave.com/wp-content/uploads/2023/12/great-indian-festival-768x320.jpg" src="" alt="The Indian E-Commerce Showdown: Unveiling the Price War Between Flipkart&#8217;s Big Billion Days and Amazon&#8217;s Great Indian Festival" title="The Indian E-Commerce Showdown: Unveiling the Price War Between Flipkart&#8217;s Big Billion Days and Amazon&#8217;s Great Indian Festival" />
+          </div>
+                    <div class="bannercontent">
+            <h4>The Indian E-Commerce Showdown: Unveiling the Price War Between Flipkart&#8217;s Big Billion Days and Amazon&#8217;s Great Indian Festival</h4>
+            <div class="excerpt">
+              <p>Dive into the price war between Flipkart&#8217;s Big Billion Days and Amazon&#8217;s Great Indian Festival, dissecting discounts, brand strategies, and discoverability across key c ...</p>
+            </div>
+            <p class="credits">Prashant Dixit | 20th Dec, 2023</p>
+          </div>
+        </div>
+        </a>
+      </div> 
+      
+                  
+      <div class="box post">
+        <a href="/blog/black-friday-cyber-monday-2023-unveiling-health-beauty-pricing-and-discount-trends" class=""  >
+        <div>
+                    <div class="contentimage"  >
+            <img class="lazythumb" data-image-src="https://stage-cdnblog.dataweave.com/wp-content/uploads/2023/12/black-friday-health-n-beauty-bg@2x-1-768x320.jpg" src="" alt="Black Friday Cyber Monday 2023: Unveiling Health &amp; Beauty Pricing and Discount Trends" title="Black Friday Cyber Monday 2023: Unveiling Health &amp; Beauty Pricing and Discount Trends" />
+          </div>
+                    <div class="bannercontent">
+            <h4>Black Friday Cyber Monday 2023: Unveiling Health &amp; Beauty Pricing and Discount Trends</h4>
+            <div class="excerpt">
+              <p>Uncover the nuances of Back Friday and Cyber Monday discounts, discover standout brands, and stay ahead of the curve in your pursuit of the best deals in Health and Beauty.
+ ...</p>
+            </div>
+            <p class="credits">DataWeave Marketing | 6th Dec, 2023</p>
+          </div>
+        </div>
+        </a>
+      </div> 
+      
+                  
+      <div class="box post">
+        <a href="/blog/black-friday-cyber-monday-2023-insights-on-pricing-and-discounts-in-home-furniture" class=""  >
+        <div>
+                    <div class="contentimage"  >
+            <img class="lazythumb" data-image-src="https://stage-cdnblog.dataweave.com/wp-content/uploads/2023/12/black-friday-home-furniture-bg-768x320.jpg" src="" alt="Black Friday Cyber Monday 2023: Insights on Pricing and Discounts in Home &amp; Furniture" title="Black Friday Cyber Monday 2023: Insights on Pricing and Discounts in Home &amp; Furniture" />
+          </div>
+                    <div class="bannercontent">
+            <h4>Black Friday Cyber Monday 2023: Insights on Pricing and Discounts in Home &amp; Furniture</h4>
+            <div class="excerpt">
+              <p>Learn about the pricing and discounting strategies that shaped the Home &#038; Furniture landscape across major retailers like Wayfair, Overstock, and Home Depot during Black Frida ...</p>
+            </div>
+            <p class="credits">DataWeave Marketing | 1st Dec, 2023</p>
+          </div>
+        </div>
+        </a>
+      </div> 
+      
+            
+      </div>
+            <div class="clear"></div>
+  </div>
+</div>
+
+
+
+<div class="feed_blogs blog"  id="blog_2">
+  <div class="wrapper">
+        <h4 class="header">
+              Our coverage of Amazon.com            &nbsp;<a href="/blog/tag/amazon" class="button viewall" >View All</a></h4>
+      
+            
+            <div class="tag_description">
+        <p>Amazon has been the most disruptive force in the world of retail over the past decade. The company has consistently been on the forefront of innovation focused on competing effectively and growing profitably. Read the latest on the retail and technology behemoth. </p>
+      </div>
+              
+      <div>
+                  
+      <div class="box post">
+        <a href="/blog/capturing-and-analyzing-retail-mobile-app-data-for-digital-shelf-analytics-are-brands-missing-out" class=""  >
+        <div>
+                    <div class="contentimage"  >
+            <img class="lazythumb" data-image-src="https://stage-cdnblog.dataweave.com/wp-content/uploads/2024/01/bg-retail-mobile-app-768x320.jpg" src="" alt="Capturing and Analyzing Retail Mobile App Data for Digital Shelf Analytics: Are Brands Missing Out?" title="Capturing and Analyzing Retail Mobile App Data for Digital Shelf Analytics: Are Brands Missing Out?" />
+          </div>
+                    <div class="bannercontent">
+            <h4>Capturing and Analyzing Retail Mobile App Data for Digital Shelf Analytics: Are Brands Missing Out?</h4>
+            <div class="excerpt">
+              <p>Unlock eCommerce success! Discover why brands must prioritize mobile app data in Digital Shelf Analytics. Dive into insights for a winning online market share. 
+ ...</p>
+            </div>
+            <p class="credits">Vaibhav Khaparde | 19th Jan, 2024</p>
+          </div>
+        </div>
+        </a>
+      </div> 
+      
+                  
+      <div class="box post">
+        <a href="/blog/the-indian-e-commerce-showdown-unveiling-the-price-war-between-flipkarts-big-billion-days-and-amazons-great-indian-festival" class=""  >
+        <div>
+                    <div class="contentimage"  >
+            <img class="lazythumb" data-image-src="https://stage-cdnblog.dataweave.com/wp-content/uploads/2023/12/great-indian-festival-768x320.jpg" src="" alt="The Indian E-Commerce Showdown: Unveiling the Price War Between Flipkart&#8217;s Big Billion Days and Amazon&#8217;s Great Indian Festival" title="The Indian E-Commerce Showdown: Unveiling the Price War Between Flipkart&#8217;s Big Billion Days and Amazon&#8217;s Great Indian Festival" />
+          </div>
+                    <div class="bannercontent">
+            <h4>The Indian E-Commerce Showdown: Unveiling the Price War Between Flipkart&#8217;s Big Billion Days and Amazon&#8217;s Great Indian Festival</h4>
+            <div class="excerpt">
+              <p>Dive into the price war between Flipkart&#8217;s Big Billion Days and Amazon&#8217;s Great Indian Festival, dissecting discounts, brand strategies, and discoverability across key c ...</p>
+            </div>
+            <p class="credits">Prashant Dixit | 20th Dec, 2023</p>
+          </div>
+        </div>
+        </a>
+      </div> 
+      
+                  
+      <div class="box post">
+        <a href="/blog/black-friday-cyber-monday-2023-unveiling-health-beauty-pricing-and-discount-trends" class=""  >
+        <div>
+                    <div class="contentimage"  >
+            <img class="lazythumb" data-image-src="https://stage-cdnblog.dataweave.com/wp-content/uploads/2023/12/black-friday-health-n-beauty-bg@2x-1-768x320.jpg" src="" alt="Black Friday Cyber Monday 2023: Unveiling Health &amp; Beauty Pricing and Discount Trends" title="Black Friday Cyber Monday 2023: Unveiling Health &amp; Beauty Pricing and Discount Trends" />
+          </div>
+                    <div class="bannercontent">
+            <h4>Black Friday Cyber Monday 2023: Unveiling Health &amp; Beauty Pricing and Discount Trends</h4>
+            <div class="excerpt">
+              <p>Uncover the nuances of Back Friday and Cyber Monday discounts, discover standout brands, and stay ahead of the curve in your pursuit of the best deals in Health and Beauty.
+ ...</p>
+            </div>
+            <p class="credits">DataWeave Marketing | 6th Dec, 2023</p>
+          </div>
+        </div>
+        </a>
+      </div> 
+      
+                  
+      <div class="box post">
+        <a href="/blog/black-friday-cyber-monday-2023-insights-on-pricing-and-discounts-in-home-furniture" class=""  >
+        <div>
+                    <div class="contentimage"  >
+            <img class="lazythumb" data-image-src="https://stage-cdnblog.dataweave.com/wp-content/uploads/2023/12/black-friday-home-furniture-bg-768x320.jpg" src="" alt="Black Friday Cyber Monday 2023: Insights on Pricing and Discounts in Home &amp; Furniture" title="Black Friday Cyber Monday 2023: Insights on Pricing and Discounts in Home &amp; Furniture" />
+          </div>
+                    <div class="bannercontent">
+            <h4>Black Friday Cyber Monday 2023: Insights on Pricing and Discounts in Home &amp; Furniture</h4>
+            <div class="excerpt">
+              <p>Learn about the pricing and discounting strategies that shaped the Home &#038; Furniture landscape across major retailers like Wayfair, Overstock, and Home Depot during Black Frida ...</p>
+            </div>
+            <p class="credits">DataWeave Marketing | 1st Dec, 2023</p>
+          </div>
+        </div>
+        </a>
+      </div> 
+      
+            
+      </div>
+            <div class="clear"></div>
+  </div>
+</div>
+
+
+
+<div class="feed_blogs blog"  id="blog_3">
+  <div class="wrapper">
+        <h4 class="header">
+              Artificial Intelligence            &nbsp;<a href="/blog/tag/artificial-intelligence" class="button viewall" >View All</a></h4>
+      
+            
+            <div class="tag_description">
+        <p>The retail industry is one of the pioneers in the adoption of Artificial Intelligence. Check out how DataWeave's proprietary Artificial Intelligence technology helps retailers make smarter decisions. </p>
+      </div>
+              
+      <div>
+                  
+      <div class="box post">
+        <a href="/blog/how-ai-powered-visual-highlighting-helps-brands-achieve-product-consistency-across-ecommerce" class=""  >
+        <div>
+                    <div class="contentimage"  >
+            <img class="lazythumb" data-image-src="https://stage-cdnblog.dataweave.com/wp-content/uploads/2024/03/ai-at-dataweave-bridging-the-gap-768x420.jpg" src="" alt="How AI-Powered Visual Highlighting Helps Brands Achieve Product Consistency Across eCommerce" title="How AI-Powered Visual Highlighting Helps Brands Achieve Product Consistency Across eCommerce" />
+          </div>
+                    <div class="bannercontent">
+            <h4>How AI-Powered Visual Highlighting Helps Brands Achieve Product Consistency Across eCommerce</h4>
+            <div class="excerpt">
+              <p>Learn how AI-powered visual highlighting helps brands maintain consistency of product images across online marketplaces with precision and speed.
+ ...</p>
+            </div>
+            <p class="credits">Ashish Rao | 4th Mar, 2024</p>
+          </div>
+        </div>
+        </a>
+      </div> 
+      
+                  
+      <div class="box post">
+        <a href="/blog/ai-powered-product-matching-the-key-to-competitive-pricing-intelligence-in-ecommerce" class=""  >
+        <div>
+                    <div class="contentimage"  >
+            <img class="lazythumb" data-image-src="https://stage-cdnblog.dataweave.com/wp-content/uploads/2024/01/data-science-aug-2019-010-768x432.jpg" src="" alt="AI-powered Product Matching: The Key to Competitive Pricing Intelligence in eCommerce" title="AI-powered Product Matching: The Key to Competitive Pricing Intelligence in eCommerce" />
+          </div>
+                    <div class="bannercontent">
+            <h4>AI-powered Product Matching: The Key to Competitive Pricing Intelligence in eCommerce</h4>
+            <div class="excerpt">
+              <p>With thousands of products and hundreds of online retailers to choose from, the average modern-day shopper usually compares prices across several e-commerce sites effortlessly befo ...</p>
+            </div>
+            <p class="credits">Sanket Patil | 29th Dec, 2023</p>
+          </div>
+        </div>
+        </a>
+      </div> 
+      
+                  
+      <div class="box post">
+        <a href="/blog/how-ai-is-giving-the-indian-beauty-industry-a-facelift" class=""  >
+        <div>
+                    <div class="contentimage"  >
+            <img class="lazythumb" data-image-src="https://stage-cdnblog.dataweave.com/wp-content/uploads/2021/11/Beauty-D2C-Blog-Hero-Image-e1688038580885-768x432.jpg" src="" alt="How Artificial Intelligence is giving the  Indian Beauty Industry a Facelift" title="How Artificial Intelligence is giving the  Indian Beauty Industry a Facelift" />
+          </div>
+                    <div class="bannercontent">
+            <h4>How Artificial Intelligence is giving the  Indian Beauty Industry a Facelift</h4>
+            <div class="excerpt">
+              <p>In this article, you will understand how artificial intelligence is helping the Indian beauty industry to give them a boost.
+ ...</p>
+            </div>
+            <p class="credits">Anurima Das | 17th Nov, 2021</p>
+          </div>
+        </div>
+        </a>
+      </div> 
+      
+                  
+      <div class="box post">
+        <a href="/blog/ai-driven-mapping-of-retail-taxonomies-part-2" class=""  >
+        <div>
+                    <div class="contentimage"  >
+            <img class="lazythumb" data-image-src="https://stage-cdnblog.dataweave.com/wp-content/uploads/2021/01/ai-neural-network-e1688039594945-768x432.jpg" src="" alt="AI-Driven Mapping of Retail Taxonomies- Part 2" title="AI-Driven Mapping of Retail Taxonomies- Part 2" />
+          </div>
+                    <div class="bannercontent">
+            <h4>AI-Driven Mapping of Retail Taxonomies- Part 2</h4>
+            <div class="excerpt">
+              <p>Mapping product taxonomies using Deep Learning In Part 1 we discussed the importance of Retail taxonomy and the applications of mapping retail taxonomies in Assortment Analytics, b ...</p>
+            </div>
+            <p class="credits">Shwet Kamal Mishra | 13th Jan, 2021</p>
+          </div>
+        </div>
+        </a>
+      </div> 
+      
+            
+      </div>
+            <div class="clear"></div>
+  </div>
+</div>
+
+
+
+<div class="feed_blogs blog"  id="blog_4">
+  <div class="wrapper">
+        <h4 class="header">
+              Sale Event Reports            &nbsp;<a href="/blog/tag/sale-events" class="button viewall" >View All</a></h4>
+      
+            
+            <div class="tag_description">
+        <p>Our proprietary data aggregation and analysis platform affords us the ability to capture unique insights on the pricing and product strategies of retailers and consumers brands during sale events. View our latest reports on sale events from around the world.</p>
+      </div>
+              
+      <div>
+                  
+      <div class="box post">
+        <a href="/blog/the-indian-e-commerce-showdown-unveiling-the-price-war-between-flipkarts-big-billion-days-and-amazons-great-indian-festival" class=""  >
+        <div>
+                    <div class="contentimage"  >
+            <img class="lazythumb" data-image-src="https://stage-cdnblog.dataweave.com/wp-content/uploads/2023/12/great-indian-festival-768x320.jpg" src="" alt="The Indian E-Commerce Showdown: Unveiling the Price War Between Flipkart&#8217;s Big Billion Days and Amazon&#8217;s Great Indian Festival" title="The Indian E-Commerce Showdown: Unveiling the Price War Between Flipkart&#8217;s Big Billion Days and Amazon&#8217;s Great Indian Festival" />
+          </div>
+                    <div class="bannercontent">
+            <h4>The Indian E-Commerce Showdown: Unveiling the Price War Between Flipkart&#8217;s Big Billion Days and Amazon&#8217;s Great Indian Festival</h4>
+            <div class="excerpt">
+              <p>Dive into the price war between Flipkart&#8217;s Big Billion Days and Amazon&#8217;s Great Indian Festival, dissecting discounts, brand strategies, and discoverability across key c ...</p>
+            </div>
+            <p class="credits">Prashant Dixit | 20th Dec, 2023</p>
+          </div>
+        </div>
+        </a>
+      </div> 
+      
+                  
+      <div class="box post">
+        <a href="/blog/black-friday-cyber-monday-2023-unveiling-health-beauty-pricing-and-discount-trends" class=""  >
+        <div>
+                    <div class="contentimage"  >
+            <img class="lazythumb" data-image-src="https://stage-cdnblog.dataweave.com/wp-content/uploads/2023/12/black-friday-health-n-beauty-bg@2x-1-768x320.jpg" src="" alt="Black Friday Cyber Monday 2023: Unveiling Health &amp; Beauty Pricing and Discount Trends" title="Black Friday Cyber Monday 2023: Unveiling Health &amp; Beauty Pricing and Discount Trends" />
+          </div>
+                    <div class="bannercontent">
+            <h4>Black Friday Cyber Monday 2023: Unveiling Health &amp; Beauty Pricing and Discount Trends</h4>
+            <div class="excerpt">
+              <p>Uncover the nuances of Back Friday and Cyber Monday discounts, discover standout brands, and stay ahead of the curve in your pursuit of the best deals in Health and Beauty.
+ ...</p>
+            </div>
+            <p class="credits">DataWeave Marketing | 6th Dec, 2023</p>
+          </div>
+        </div>
+        </a>
+      </div> 
+      
+                  
+      <div class="box post">
+        <a href="/blog/black-friday-cyber-monday-2023-insights-on-pricing-and-discounts-in-home-furniture" class=""  >
+        <div>
+                    <div class="contentimage"  >
+            <img class="lazythumb" data-image-src="https://stage-cdnblog.dataweave.com/wp-content/uploads/2023/12/black-friday-home-furniture-bg-768x320.jpg" src="" alt="Black Friday Cyber Monday 2023: Insights on Pricing and Discounts in Home &amp; Furniture" title="Black Friday Cyber Monday 2023: Insights on Pricing and Discounts in Home &amp; Furniture" />
+          </div>
+                    <div class="bannercontent">
+            <h4>Black Friday Cyber Monday 2023: Insights on Pricing and Discounts in Home &amp; Furniture</h4>
+            <div class="excerpt">
+              <p>Learn about the pricing and discounting strategies that shaped the Home &#038; Furniture landscape across major retailers like Wayfair, Overstock, and Home Depot during Black Frida ...</p>
+            </div>
+            <p class="credits">DataWeave Marketing | 1st Dec, 2023</p>
+          </div>
+        </div>
+        </a>
+      </div> 
+      
+                  
+      <div class="box post">
+        <a href="/blog/which-amazon-sale-offered-better-deals-prime-day-in-july-or-big-deal-days-in-october" class=""  >
+        <div>
+                    <div class="contentimage"  >
+            <img class="lazythumb" data-image-src="https://stage-cdnblog.dataweave.com/wp-content/uploads/2023/11/fall-primeday-768x320.jpg" src="" alt="Which Amazon Sale Offered Better Deals: Prime Day in July or Big Deal Days in October?" title="Which Amazon Sale Offered Better Deals: Prime Day in July or Big Deal Days in October?" />
+          </div>
+                    <div class="bannercontent">
+            <h4>Which Amazon Sale Offered Better Deals: Prime Day in July or Big Deal Days in October?</h4>
+            <div class="excerpt">
+              <p>Uncover surprising insights on Amazon&#8217;s Prime Day events. View our in-depth analysis of October&#8217;s Prime Big Deal Days and July&#8217;s Prime Day event across key catego ...</p>
+            </div>
+            <p class="credits">Shailendra Nagarajan | 20th Nov, 2023</p>
+          </div>
+        </div>
+        </a>
+      </div> 
+      
+                  
+      <div class="box post">
+        <a href="/blog/biggest-sale-days-uk" class=""  >
+        <div>
+                    <div class="contentimage"  >
+            <img class="lazythumb" data-image-src="https://stage-cdnblog.dataweave.com/wp-content/uploads/2022/02/Blog-UKs-Biggest-Sales-Days-Hero-Image_2-15-Feb-e1688038013269-768x432.jpg" src="" alt="UK&#8217;s Biggest Sale Days: What we saw in 2021 and trends for 2022" title="UK&#8217;s Biggest Sale Days: What we saw in 2021 and trends for 2022" />
+          </div>
+                    <div class="bannercontent">
+            <h4>UK&#8217;s Biggest Sale Days: What we saw in 2021 and trends for 2022</h4>
+            <div class="excerpt">
+              <p>Customers love discounts, and promotions are the most effective way to attract<br />
+shoppers and increase sales during the holiday season and clearance sales. Know more!
+ ...</p>
+            </div>
+            <p class="credits">Riya Anand | 15th Feb, 2022</p>
+          </div>
+        </div>
+        </a>
+      </div> 
+      
+                  
+      <div class="box post">
+        <a href="/blog/2021-cost-push-inflationary-trends-ran-rampant-impacting-holiday-discounts" class=""  >
+        <div>
+                    <div class="contentimage"  >
+            <img class="lazythumb" data-image-src="https://stage-cdnblog.dataweave.com/wp-content/uploads/2022/01/DataWeave-CNBC-Analysis-Blog-Hero-Image-e1688038292923-768x432.jpg" src="" alt="2021 Cost-Push Inflationary Trends Ran Rampant, Impacting Holiday Discounts" title="2021 Cost-Push Inflationary Trends Ran Rampant, Impacting Holiday Discounts" />
+          </div>
+                    <div class="bannercontent">
+            <h4>2021 Cost-Push Inflationary Trends Ran Rampant, Impacting Holiday Discounts</h4>
+            <div class="excerpt">
+              <p>Business has been anything but usual this holiday season, especially in the digital retail world. The holiday hustle and bustle historically seen in stores was once again occurring ...</p>
+            </div>
+            <p class="credits">Nadir Islam | 4th Jan, 2022</p>
+          </div>
+        </div>
+        </a>
+      </div> 
+      
+                  
+      <div class="box post">
+        <a href="/blog/black-friday-prices-tempt-health-beauty-shoppers" class=""  >
+        <div>
+                    <div class="contentimage"  >
+            <img class="lazythumb" data-image-src="https://stage-cdnblog.dataweave.com/wp-content/uploads/2020/12/BlackFriday_BeautyProducts-1-e1688039432377-768x512.jpg" src="" alt="Black Friday Prices Tempt Health &#038; Beauty Shoppers" title="Black Friday Prices Tempt Health &#038; Beauty Shoppers" />
+          </div>
+                    <div class="bannercontent">
+            <h4>Black Friday Prices Tempt Health &#038; Beauty Shoppers</h4>
+            <div class="excerpt">
+              <p>Black Friday looked downright sultry with desirable discounts on health and beauty products. This year, health and beauty sales faced the threat of declining demand, as the pandemi ...</p>
+            </div>
+            <p class="credits">DataWeave Marketing | 18th Dec, 2020</p>
+          </div>
+        </div>
+        </a>
+      </div> 
+      
+                  
+      <div class="box post">
+        <a href="/blog/who-won-black-fridays-electronics-price-war" class=""  >
+        <div>
+                    <div class="contentimage"  >
+            <img class="lazythumb" data-image-src="https://stage-cdnblog.dataweave.com/wp-content/uploads/2020/12/CYberMonday_Sale_DiscountonElectronics-e1688039468478-768x512.jpg" src="" alt="Who Won Black Friday’s Electronics Price War?" title="Who Won Black Friday’s Electronics Price War?" />
+          </div>
+                    <div class="bannercontent">
+            <h4>Who Won Black Friday’s Electronics Price War?</h4>
+            <div class="excerpt">
+              <p>Electronics have never been hotter. This year’s COVID-19 pandemic created a seismic shift towards tech, directly affecting retailers’ Black Friday and Cyber Monday pricing stra ...</p>
+            </div>
+            <p class="credits">DataWeave Marketing | 11th Dec, 2020</p>
+          </div>
+        </div>
+        </a>
+      </div> 
+      
+            
+      </div>
+            <div class="clear"></div>
+  </div>
+</div>
+
+
+
+<div class="fixedimageslide bgfixed" id="blogsubscribe">
+  
+		<div class="slide" style="background-image: url(https://dataweave.com/assets/images/test-bg4.jpg);" >
+		<div class="overlaycolor" style="background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.6) 4%, rgba(0, 0, 0, 0.9) 100%);"></div>
+		<div class="wrapper">
+  		<div class="bannercontent dark  blank  ">
+  			<div class="action ">
+  			  				<h2>Curious to know more about DataWeave?</h2>
+        												  <p><span class="button goform" >Let's Talk</span></p>
+				  			</div>
+			</div>
+									<div class="bannerform dark">
+  			<div class="formcontent formonload">
+    			<form id="form_blogsubscribe" method="post" autocomplete="on" action="/index.php?/frm_pg_#blogsubscribe">  
+      			<div class="forminput mandatory"><label for="name">Name</label><input type="name" class="" placeholder="John Smith" name="i_name" autocomplete="name" /></div>
+      			<div class="forminput mandatory"><label for="email">Email</label><input type="email" class="" placeholder="john.smith@domain.com" name="i_email" autocomplete="email"/></div>
+      			<div class="forminput "><label for="phone">Phone</label><input type="tel" class="" value="" placeholder="Phone Number" name="i_phone" autocomplete="tel" id="i_phone"></div>
+      			<div class="clear">
+        			<input type="hidden" value="blog" name="page" />
+        			<input type="hidden" value="home" name="source" />
+        			<input type="hidden" value="The+DataWeave+Blog" name="page_title" />
+        			<input type="submit" class="" id="send_request" value="submit" name="send_blogsubscribe" />
+            </div>
+      			<div class="error" id= "contactus_error" style="display: none;"></div>
+      			<!--p class="fineprint"><sup>*</sup>Looking for career opportunities instead? <a href="index.php?page=jobs/frm_pg_">Click here!</a></p-->
+    			</form>
+  			</div>
+			</div>
+					</div>
+	</div>
+	</div>
+
+
+
+
+</section>
+<div class="footerlinks pdfcrowd-remove"  id="boilerplate">
+  <div class="wrapper">
+    <div class="social_Links">
+        <nav>
+        <ul>
+          <li><a href="/"><i class="icon footerlogo"></i></a></li>
+        </ul>
+        <ul>
+          <li>
+            <h4><span>Connect with us</span></h4>
+          </li>
+          <li>
+            <ul>
+                                                <li><a class="facebook" href="https://www.facebook.com/DataWeave" target="_blank"><i class="icon small social facebook"></i><span class="hidden">facebook</span></a></li>
+                                                                <li><a class="twitter" href="https://twitter.com/dataweavein" target="_blank"><i class="icon small social twitter"></i><span class="hidden">twitter</span></a></li>
+                                                                <li><a class="linkedin" href="https://www.linkedin.com/company/dataweave" target="_blank"><i class="icon small social linkedin"></i><span class="hidden">linkedin</span></a></li>
+                                                                                                                         
+            </ul>
+          </li>
+          <li>
+            <p class="fineprint"><span>&copy;2024 DataWeave<br>All rights reserved. <a href="https://dataweave.com/in/privacy-policy">Privacy Policy</a></span><span style="visibility: hidden"><small></small> | Current PHP version: 7.0.33-57+ubuntu20.04.1+deb.sury.org+1<br />cookie</span></p>
+          </li>
+        </ul>
+      </div>
+    <div class="primary_links">
+                  <ul>
+                <li>
+                      <h4><a class="" href="https://dataweave.com/in/commerce-intelligence" >Commerce Intelligence</a></h4>
+                  </li>
+                          <li><a class="" href="https://dataweave.com/in/pricing-intelligence" >Pricing Intelligence</a></li>
+                  <li><a class="" href="https://dataweave.com/in/assortment-analytics" >Assortment Analytics</a></li>
+                  <li><a class="" href="https://dataweave.com/in/monitor-real-time-competitor-fuel-prices-effortlessly" >Fuel Pricing Intelligence</a></li>
+         
+      </ul>
+            <ul>
+                <li>
+                      <h4><a class="" href="https://dataweave.com/in/brand-analytics" >Brand Analytics</a></h4>
+                  </li>
+                          <li><a class="" href="https://dataweave.com/in/digital-shelf-analytics" >Digital Shelf Analytics</a></li>
+                  <li><a class="" href="https://dataweave.com/in/brand-protection" >Brand Protection</a></li>
+         
+      </ul>
+            <ul>
+                <li>
+                      <h4><a class="" href="https://dataweave.com/in/daas" >Data-as-a-Service</a></h4>
+                  </li>
+                          <li><a class="" href="https://dataweave.com/in/quick-service-restaurant-intelligence" >Quick Service Restaurants</a></li>
+                  <li><a class="" href="https://dataweave.com/in/food-delivery-intelligence" >Food Delivery Analytics</a></li>
+         
+      </ul>
+            <ul>
+                <li>
+                      <h4><a class="" href="https://dataweave.com/in/technology" >Technology</a></h4>
+                  </li>
+                          <li><a class="" href="https://dataweave.com/in/technology#alternatingblocks_1" >Data Aggregation</a></li>
+                  <li><a class="" href="https://dataweave.com/in/technology#alternatingblocks_2" >Artificial Intelligence</a></li>
+                  <li><a class="" href="https://dataweave.com/in/technology#alternatingblocks_3" >Human-in-Loop</a></li>
+                  <li><a class="" href="https://dataweave.com/in/technology#alternatingblocks_4" >Delivery Modes</a></li>
+         
+      </ul>
+            <ul>
+                <li>
+                      <h4><a class="" href="https://dataweave.com/in/about-us" >Company</a></h4>
+                  </li>
+                          <li><a class="" href="https://dataweave.com/blog" >Blog</a></li>
+                  <li><a class="" href="https://dataweave.com/in/dataweave-partnership" >Partnership</a></li>
+                  <li><a class="" href="https://dataweave.com/in/press-room" >Press Room</a></li>
+                  <li><a class="" href="https://dataweave.com/in/careers" >Careers</a></li>
+                  <li><a class="" href="https://dataweave.com/in/about-us#addresses" >Contact Us</a></li>
+         
+      </ul>
+            </nav>
+      
+    </div>
+    <div class=""  style="padding: 24px; float: left;">
+        <form>
+          Switch to <select id="country_selector" style="width: auto; border: 0; margin: 0 4px; padding: 10px 30px 10px 12px !important; font-size: inherit; color: inherit; font-family: inherit; letter-spacing: inherit; background-color: #3b477b; border-radius: 4px; min-width: auto">
+            <option value="">Select Region</option>
+                        <option name="us" value="us"  >United States</option>
+                        <option name="gb" value="gb"  >United Kingdom</option>
+                        <option name="in" value="in" selected >India</option>
+                        <option name="int" value="int"  >International</option>
+             
+          </select> website. 
+          <input type="submit" id="country_selector_go" style="width: auto; border: 0; margin: 0 4px; padding: 10px 12px !important; font-size: inherit; color: inherit; font-family: inherit; letter-spacing: inherit; background-color: #3b477b; border-radius: 4px; min-width: auto; font-weight: bold" value="Go" />
+        </form>
+      </div>
+    
+    
+<!--     //Add new stuff here -->
+    <div class="clear"></div>
+    
+    
+  </div>
+</div>
+<div class="" id="canvascover"></div>
+<div class="formpopup" id="demoform">
+  <i class="icon closewhite"></i>
+  <div class="wrapper">
+    <div class="formcontent ">
+      <h4>Book a Demo</h4>
+      
+      <form method="post" autocomplete="on" action="" id="get_demo_form">
+        <div class="restrict">
+                                        <div class="forminput mandatory ">
+            <label for="D_ffname">Full Name</label>
+                          <input type="name" class="" placeholder="Firstname Lastname" name="D_ffname" id="D_ffname"  />
+                      </div>
+                              <div class="forminput mandatory ">
+            <label for="D_EMAIL">Email</label>
+                          <input type="text" class="" placeholder="name@company.com" name="D_EMAIL" id="D_EMAIL"  />
+                      </div>
+                              <div class="forminput  ">
+            <label for="D_PHONE">Phone</label>
+                          <input type="tel" class="" placeholder="" name="D_PHONE" id="D_PHONE"  />
+                      </div>
+                              <div class="forminput  ">
+            <label for="D_TITLE">Job Title</label>
+                          <input type="text" class="" placeholder="" name="D_TITLE" id="D_TITLE"  />
+                      </div>
+                              <div class="forminput  ">
+            <label for="D_COMPANY">Company</label>
+                          <input type="text" class="" placeholder="" name="D_COMPANY" id="D_COMPANY"  />
+                      </div>
+                              <div class="forminput  ">
+            <label for="D_INDUSTRY">Industry</label>
+                          <select class="" name="D_INDUSTRY">
+                <option>Select Industry</option>
+                                <option value="Online Retail">Online Retail</option>
+                                <option value=" Offline Retail"> Offline Retail</option>
+                                <option value=" Consumer Brand"> Consumer Brand</option>
+                                <option value=" PE/Investment Firm"> PE/Investment Firm</option>
+                                <option value=" Financial Services"> Financial Services</option>
+                                <option value=" Consulting"> Consulting</option>
+                                <option value=" Telecommunications"> Telecommunications</option>
+                                <option value=" Other "> Other </option>
+                              </select>
+                      </div>
+                              <div class="forminput  fullwidth">
+            <label for="D_Biggest_Challenge">What is your biggest challenge?</label>
+                          <textarea class="" placeholder="" name="D_Biggest_Challenge" rows="4" maxlength="240"></textarea>
+                      </div>
+                                                       			
+        </div>
+        <div class="error" id="demoerror" style="display: none;">Please enter a valid User Details</div>
+  			<div>
+    			<!-- UTM Codes added here -->
+    			<input type="hidden" value="blog" name="page" />
+    			<input type="hidden" value="The+DataWeave+Blog" name="page_title" />
+    			<input type="hidden" value="Book a Demo" name="form_type" />
+    			<input type="hidden" value="home" name="source" />
+    			<input type="submit" class="" name="getdemo" value="Submit" id="btn_get_demo">
+    		</div>  					
+		  </form>
+		</div>
+	</div>  
+</div>
+<div class="noprint" id="canvascoverwhite"></div>
+<div class="downloadform noprint" id="download_report_form">
+  <i class="closeorange"></i>
+  <div class="wrapper">
+    <div class="banner">
+      <img src="" />
+    </div>
+    <div class="dform">
+      <h4 class="header"></h4>
+      <p class="content"></p>
+      <div class="formcontent noprint">
+        <form method="post" autocomplete="on" action="/index.php">
+          <div class="downloadinput mandatory"><label for="name">Name</label><input type="name" class="" placeholder="John Smith" name="dp_name" maxlength="50" size="30" required=""></div>
+          <div class="downloadinput mandatory"><label for="email">Email</label><input type="email" class="" placeholder="john.smith@domain.com" name="dp_email" maxlength="80" size="30" required=""></div>
+          <div class="downloadinput hidden"><input type="tel" class="" placeholder="" name="dp_phone" maxlength="80" size="30" id="dp_phone"></div>
+          <div class="downloadinput" style="width: 99%">
+            <input type="hidden" value="The+DataWeave+Blog" name="dp_page_title" />
+            <input type="hidden" value="Download Report" name="dp_form_type" />
+            <input type="submit" name="" value="Download Report" id="download_popup" class="button small"><br>
+          <span id="download_popup_error" style="font-size: 12px;"></span></div>
+        </form>
+      </div>
+      <div class="formthankyou hidden" id="report_thankyou">
+        <p>Thank you for your interest.<span id="pixels"></span></p>
+  		  <p><a class="button download" id="downloadfile_popup" href="" target="_blank" >Download Report</a></p>
+  		  <p>If your download does not start automatically, <strong>click the button above.</strong></p>
+  		</div>
+    </div>
+  </div>
+</div><div class="" id="canvascover"></div>
+<div class="formpopup" id="loginform">
+  <i class="icon closewhite"></i>
+  <div class="wrapper">
+    <div class="formcontent login">
+      <h4>Login</h4>
+      <form method="post" autocomplete="on" action="" id="login_form">
+       <div class="forminput mandatory"><label for="email">Username</label><input type="email" class="" placeholder="username / email" name="email" maxlength="80" size="30" id="uname"></div>
+       <div class="forminput mandatory"><label for="first_name">Password</label><input type="password" class="" placeholder="*******" name="password" maxlength="50" size="30" id="password"></div>
+       <!--div class="forminput linear"><p><a href="#" class="">Forgot Password? </a><br>Don't Have an account? <a href="#" class="">Sign Up</a></div-->
+       <div class="forminput linear"><input type="submit" class="" name="login" value="Login" id="loginBtn">
+       </div>  					
+     </form>
+   </div>
+   <div class="formcontent login" >
+      <div class="andor">Or</div>
+      <h4>&nbsp;</h4>
+      <form method="post" autocomplete="on" action="" id="login_form">
+       <a href="#" class="googlelogin" style="">Login with Google</a><input type="button" value="Single Sign-on" class="auth0login ssologin" >
+        					
+     </form>
+      <p class="fineprint" style="color: #999">For accounts configured with Google ID, use Google login on top. For accounts using SSO Services, use the button marked "Single Sign-on".</p>
+      
+   </div>
+   <div class="error loginerr" style="display: none;">Email or Password incorrect. Please retry.</div>
+ </div>  
+</div></div></div>
+<!-- Call the deciples -->
+<script src="https://dataweave.com/assets/js/intlTelInput.min.js" nonce="7121774575371401"></script>
+<script type="text/javascript" src="https://dataweave.com/assets/js/slick.min.js" nonce="7121774575371401"></script>
+<script type="text/javascript" src="https://dataweave.com/assets/js/jquery.colorbox-min.js" nonce="7121774575371401"></script>
+<!-- Load this last -->
+<script src="https://dataweave.com/assets/js/dataweavenew.min.js?v.." nonce="7121774575371401"></script>
+<!-- TrenDemon Moved to GTM -->
+<!-- Start of HubSpot Embed Code -->
+<script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/5603193.js" nonce="7121774575371401"></script>
+<!-- End of HubSpot Embed Code -->
+
+
+</body>
+</html>
+
+
+
